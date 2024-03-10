@@ -1,0 +1,404 @@
+.menu{
+    display: flex;
+    padding: 0;
+    background-color: #ccc;
+    justify-content: center;
+    margin-left: 280px;
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.menu a { 
+    display: block;
+    min-width: 120px;
+
+    margin: 0.9rem;
+    padding: 0.6rem;    
+    text-align: center;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    transition: all 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    background-color: transparent;
+    opacity: .5;
+    border-color: #fff;
+}
+
+body{
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #000;
+
+}
+
+.imgDossier{
+    width: 120px;
+    height: 120px;
+}
+
+.imgLettre{
+    width: 120px;
+    height: 120px;
+}
+
+.portDiv{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.main{
+    padding-left: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.cvDiv{
+    display: flex;
+    
+
+}
+.ldmDiv{
+    display: flex;
+    
+}
+
+.menuCV{
+    display: flex;
+    padding: 0;
+    background-color: #ccc;
+    justify-content: center;
+    margin-left: 114px;
+    font-size: 15px;
+}
+.menuLDM{
+    display: flex;
+    padding: 0;
+    background-color: #ccc;
+    justify-content: center;
+    margin-left: 320px;
+    font-size: 15px;
+    padding-right: 50px;
+
+}
+.menuLDM a{
+    display: block;
+    min-width: 120px;
+
+    margin: 0.9rem;
+    padding: 0.6rem;    
+    text-align: center;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    transition: all 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuLDM a:hover{
+    background-color: transparent;
+    opacity: .5;
+    border-color: #fff;
+}
+
+.menuLDM li{
+    list-style-type: none;
+}
+.menuCV a:hover{
+    background-color: transparent;
+    opacity: .5;
+    border-color: #fff;
+}
+
+.menuCV a {
+    display: block;
+    min-width: 120px;
+
+    margin: 0.9rem;
+    padding: 0.6rem;    
+    text-align: center;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    transition: all 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuCV li{
+    list-style-type: none;
+}
+
+.cvPdf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+ 
+}
+
+.ldmPdf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.ldmPdf:hover {
+    opacity: .5;
+    text-decoration: none;
+    transition: all 1s;
+
+}
+
+.cvPdf:hover{
+    opacity: .5;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.imgCV{
+    width: 150px;
+    height: 150px;
+}
+.imgLDM{
+    width: 150px;
+    height: 200px;
+   
+}
+
+.divCV{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imgLDMDiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.email{
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+.email a{
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+}
+.email a:hover{
+    opacity: .5;
+    font-size: 110%;
+    transition: all 1s;
+}
+
+.divLogo img{
+    width: 40px;
+    height: 40px;
+}
+.divLogo{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.divFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+} 
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.container input{
+    margin-bottom: 1.5rem;
+    border: 2px solid #555;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.boutton_contact{
+    width: 5rem;
+    height: 2rem;
+    font-size: 15px;
+}
+.container textarea{
+    border: 2px solid #555;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.msg_contact{
+    width: 100%;
+    height: 120px;
+}
+
+.contact_boutton{
+    border: 2px solid #555 ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    padding:0 5px;
+}
+
+.listeRea ul{
+    list-style-type: none;
+}
+
+.listeRea a{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+
+.listeRea a:hover{
+    background-color: transparent;
+    opacity: .5;
+    border-color: #fff;
+}
+
+.base{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.bton{
+    margin: 0.9rem;
+    padding: 0.6rem;    
+    text-align: center;
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+
+    transition: all 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.bton:hover{
+    background-color: transparent;
+    opacity: .5;
+    border-color: #fff;
+}
+
+.img_{
+    width: 900px;
+    height: 550px;
+    
+}
+
+.div_img{
+    width: 900px;
+    border:3px solid #000;
+
+}
+
+.wash_img img{
+    width: 900px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.bdd_img img{
+    width: 600px;
+    margin-bottom: 20px;
+    border: 3px solid #000;
+}
+.bdd_img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.index_div{
+    margin-bottom: 35px;
+}
+
+
+.checkmark__circle{stroke-dasharray: 166;stroke-dashoffset: 166;stroke-width: 2;stroke-miterlimit: 10;stroke: #7ac142;fill: none;animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards}.checkmark{width: 56px;height: 56px;border-radius: 50%;display: block;stroke-width: 2;stroke: #fff;stroke-miterlimit: 10;margin: 10% auto;box-shadow: inset 0px 0px 0px #7ac142;animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both}.checkmark__check{transform-origin: 50% 50%;stroke-dasharray: 48;stroke-dashoffset: 48;animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards}@keyframes stroke{100%{stroke-dashoffset: 0}}@keyframes scale{0%, 100%{transform: none}50%{transform: scale3d(1.1, 1.1, 1)}}@keyframes fill{100%{box-shadow: inset 0px 0px 0px 30px #7ac142}}
+
+.contact_boutton2 {
+    border: 2px solid #555 ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 30px;
+    padding:0 5px;
+    margin-left: 750px; 
+
+}
+
+.big_entete{
+    display: flex;
+}
+.entete{
+    display: flex;
+}
+
+.val_img img{
+    width: 988px;
+    height: 478px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.dev_img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
